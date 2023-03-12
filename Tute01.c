@@ -7,7 +7,7 @@
 int main() {
    float mark1, mark2, average;
    printf( "Enter the marks of the two subjects:-" );// prompt
-   scanf( "%d%d", &mark1, &mark2 ); // reading the marks 
+   scanf( "%f %f", &mark1, &mark2 ); // reading the marks 
    average = (mark1 + mark2 ) / 2.0; // calculate average
    printf( "The average of the two marks is %.2f", average ); // display the average
    
